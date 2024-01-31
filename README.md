@@ -4,14 +4,17 @@ This repository contains practicals designed for the CS3340 and CS4352 - Robotic
 
 This practical series uses the latest version of Robot Operating System (ROS2) running in Ubuntu 22.04
 
-Lab 1
+Best practice is to create a new directory for every new workspace. Let's create a new workspace for all our practicals related to the module. [Follow this instructions](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/CreateWorkspace.md) and create the "robotics" workspace.
+
+## A second-level heading
+**Lab 1**
 This lab focuses on learning about TF broadcasters & TF listeners. The practical focuses on creating a TF broadcaster that recives input from keybaord and bradocasting them as a tf transform and a listener that listens to the broadcasted transform and controls the velocity of the turrtlesim accodingly. The static frame transform braodcasts a fixed transformatin which a second tutrle follows. The dynamic frame transformation broadcasts a dnamic frame that a second turtle follow.
 
 This practical is based on "Writing a simple publisher and subscriber" available in [https://docs.ros.org/en/humble](https://docs.ros.org/en/humble/Tutorials/Intermediate/Tf2/Tf2-Main.html#)).
 
-Package Creation - here
-Publisher creation - here
-Subscriber creation - here
-Additional static frame - here
-Additional dynamic frame - here
-Compiling and Running - here
+1. Package Creation - [here]
+1. Publisher creation - [here]
+1. Subscriber creation - [here]
+1. Additional static frame - [here]
+1. Additional dynamic frame - [here]
+1. Compiling and Running - [here]
