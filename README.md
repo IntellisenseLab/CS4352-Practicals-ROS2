@@ -6,8 +6,8 @@ This practical series uses the latest version of Robot Operating System (ROS2) r
 
 Best practice is to create a new directory for every new workspace. Let's create a new workspace for all our practicals related to the module. [Follow this instructions](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/CreateWorkspace.md) and create the "robotics" workspace.
 
-## A second-level heading
-**Lab 1**
+## Lab 1
+
 This lab focuses on learning about TF broadcasters & TF listeners. The practical focuses on creating a TF broadcaster that recives input from keybaord and bradocasting them as a tf transform and a listener that listens to the broadcasted transform and controls the velocity of the turrtlesim accodingly. The static frame transform braodcasts a fixed transformatin which a second tutrle follows. The dynamic frame transformation broadcasts a dnamic frame that a second turtle follow.
 
 This practical is based on "Writing a simple publisher and subscriber" available in [https://docs.ros.org/en/humble](https://docs.ros.org/en/humble/Tutorials/Intermediate/Tf2/Tf2-Main.html#)).
