@@ -10,6 +10,6 @@ Once the environment is sourced, let's make a new directory for our workspace. T
 mkdir -p ~/robotics/src
 cd ~/robotics/src
 ```
-The above code creates a src directory inside ros2_ws and then navigates into it.
+The above code creates a "src" directory inside "robotics" and then navigates into it.
 
 Now, we have created the workspace for our course module. Let's get started !
