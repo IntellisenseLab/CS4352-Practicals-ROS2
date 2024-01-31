@@ -1,4 +1,4 @@
-#Running the Broadcaster
+# Running the Broadcaster
 
 Move to the root of the ROS workspace and launch the program.
 
@@ -19,7 +19,7 @@ Now, use the tf2_echo tool to check if the turtle pose is actually getting broad
 ros2 run tf2_ros tf2_echo world turtle1
 ```
 
-#Running the Listener
+# Running the Listener
 
 Open a new terminal, navigate to the root of your workspace, and source the setup files:
 
@@ -36,7 +36,7 @@ ros2 run turtlesim turtle_teleop_key
 
 Now simply drive around the first turtle using the arrow keys (make sure your terminal window is active, not your simulator window), and you’ll see the second turtle following the first one!
 
-#Adding a static carrot!
+# Adding a static carrot!
 
 Open a new terminal, navigate to the root of your workspace, and source the setup files:
 
@@ -46,7 +46,7 @@ ros2 launch broadcaster_listener turtle_tf2_fixed_frame_demo.launch.py
 ```
 Now you’ll see the second turtle following the carrot instead of the first turtle!
 
-#Adding a dynamic carrot!
+# Adding a dynamic carrot!
 
 Open a new terminal, navigate to the root of your workspace, and source the setup files:
 
