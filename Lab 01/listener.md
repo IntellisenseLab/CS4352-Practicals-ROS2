@@ -14,7 +14,7 @@ Now copy the content from [broadcaster.txt](https://github.com/IntellisenseLab/C
 Open src/broadcaster_listener folder and open setup.py file. In the file, add the following line between the ```'console_scripts': ``` brackets:
 
 ```Linux
-'turtle_tf2_listener = learning_tf2_py.turtle_tf2_listener:main',
+'turtle_tf2_listener = broadcaster_listener.turtle_tf2_listener:main',
 ```
 
 Open the launch file called turtle_tf2_demo.launch.py with your text editor, add two new nodes to the launch description, add a launch argument, and add the imports. The resulting file should look like:
@@ -35,7 +35,7 @@ def generate_launch_description():
             name='sim'
         ),
         Node(
-            package='learning_tf2_py',
+            package='broadcaster_listener',
             executable='turtle_tf2_broadcaster',
             name='broadcaster1',
             parameters=[
@@ -47,7 +47,7 @@ def generate_launch_description():
             description='Target frame name.'
         ),
         Node(
-            package='learning_tf2_py',
+            package='broadcaster_listener',
             executable='turtle_tf2_broadcaster',
             name='broadcaster2',
             parameters=[
@@ -55,7 +55,7 @@ def generate_launch_description():
             ]
         ),
         Node(
-            package='learning_tf2_py',
+            package='broadcaster_listener',
             executable='turtle_tf2_listener',
             name='listener',
             parameters=[
