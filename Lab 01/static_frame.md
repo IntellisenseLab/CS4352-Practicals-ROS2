@@ -2,7 +2,7 @@ In our turtle example, we’ll add a new frame carrot1, which will be the child 
 
 Inside src/broadcaster_listener/broadcaster_listener create a python file called fixed_frame_tf2_broadcaster.py
 
-Now copy the content [from static_frame.txt](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/static_frame.txt) and paste in the fixed_frame_tf2_broadcaster.py
+Now copy the content from [static_frame.txt](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/static_frame.txt) and paste in the fixed_frame_tf2_broadcaster.py
 
 Now open src/broadcaster_listener and open setup.py file.
 Add the following line between the 'console_scripts': brackets:
