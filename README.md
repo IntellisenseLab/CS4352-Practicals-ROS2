@@ -4,7 +4,7 @@ This repository contains practicals designed for the CS3340 and CS4352 - Robotic
 
 This practical series uses the latest version of Robot Operating System (ROS2) running in Ubuntu 22.04
 
-Best practice is to create a new directory for every new workspace. Let's create a new workspace for all our practicals related to the module. [Follow this instructions](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/CreateWorkspace.md) and create the "robotics" workspace.
+Best practice is to create a new directory for every new workspace. Let's create a new workspace for all our practicals related to the module. [Follow these instructions](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/CreateWorkspace.md) and create the "robotics" workspace.
 
 ## Lab 1
 
