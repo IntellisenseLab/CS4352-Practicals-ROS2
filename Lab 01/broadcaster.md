@@ -15,7 +15,7 @@ Now copy the content from [broadcaster.txt](https://github.com/IntellisenseLab/C
 Open src/broadcaster_listener folder and open setup.py file. In the file, add the following line between the ```'console_scripts': ``` brackets:
 
 ```Linux
-'turtle_tf2_broadcaster = learning_tf2_py.turtle_tf2_broadcaster:main',
+'turtle_tf2_broadcaster = broadcaster_listener.turtle_tf2_broadcaster:main',
 ```
 
 Now create a launch file for this demo. Create a new folder in src/broadcaster-listener called "launch" and inside launch create a new python file called "turtle_tf2_demo.launch.py". 
