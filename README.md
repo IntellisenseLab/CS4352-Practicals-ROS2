@@ -10,8 +10,6 @@ Best practice is to create a new directory for every new workspace. Let's create
 
 This lab focuses on learning about TF broadcasters & TF listeners. The practical focuses on creating a TF broadcaster that recives input from keybaord and bradocasting them as a tf transform and a listener that listens to the broadcasted transform and controls the velocity of the turrtlesim accodingly. The static frame transform braodcasts a fixed transformation which a second tutrle follows. The dynamic frame transformation broadcasts a dynamic frame that a second turtle follow.
 
-This practical is based on "Writing a simple Broadcaster and Listener" available in [https://docs.ros.org/en/humble](https://docs.ros.org/en/humble/Tutorials/Intermediate/Tf2/Tf2-Main.html#)).
-
 1. Package Creation - [here](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/createpackage.md)
 1. Broadcaster creation - [here](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/broadcaster.md)
 1. Listener creation - [here](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/listener.md)
