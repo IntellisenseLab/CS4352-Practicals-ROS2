@@ -1,6 +1,6 @@
 # CS4352-Practicals-ROS2
 
-This repository contains practicals designed for the CS3340 and CS4352 - Robotics and Automation module offered by Department of Computer Science and Engineering of University of Moratuwa. This branch contains lab activities related to Batches starting from 2019. This series of practicals are designed to support the theroy components taught in the CS4352 and CS3340 lectures and will have complementing activities each week. This work assumes that the students have a basic understanding of Robot Operating System (ROS) including its internal structure, Broadcaster-Listener architecture and Client-Server architecture which can be covered by following the ROS Introduction webinar series.
+This repository contains practicals designed for the CS3340 and CS4352 - Robotics and Automation module offered by Department of Computer Science and Engineering of University of Moratuwa. This branch contains lab activities related to Batches starting from 2019. This series of practicals are designed to support the theory components taught in the CS4352 and CS3340 lectures and will have complementing activities each week. This work assumes that the students have a basic understanding of Robot Operating System (ROS) including its internal structure, Broadcaster-Listener architecture and Client-Server architecture which can be covered by following the ROS Introduction webinar series.
 
 This practical series uses the latest version of Robot Operating System (ROS2) running in Ubuntu 22.04
 
