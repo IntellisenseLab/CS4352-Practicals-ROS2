@@ -17,3 +17,12 @@ This lab focuses on learning about TF broadcasters & TF listeners. The practical
 1. Additional dynamic frame - [here](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/dynamic_frame.md)
 1. Compiling and Running - [here](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/running.md)
 2. Exercise - [here](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/Exercise)
+
+## Lab 2
+
+This lab focuses on learning about the relationship between 3 Angle representation, Quaternions and ROS2. The server implements a converter that converts the 3 angle representation to quarternions. The client can send the 3 angle representation and receive the converted quaternion value back. This lab exercise will also give an understating of ROS Server client architecture.
+
+1. Package Creation - here
+1. Srv creation - here
+1. Server and Client creation - here
+1. Exercise - here
