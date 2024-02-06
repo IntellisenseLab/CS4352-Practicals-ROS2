@@ -4,7 +4,8 @@ Run the following commands to setup dependencies required for the open manipulat
 
 ```Linux
 sudo apt install ros-humble-python* ros-humble-rqt*
-sudo apt-get install ros-humble-gazebo* ros-humble-moveit*
+sudo apt install ros-humble-gazebo*
+sudo apt install ros-humble-moveit*
 ```
 
 # Package Creation
