@@ -9,7 +9,7 @@ Now let's create the source files. For that, we need to create a python file for
 ```Linux
 code turtle_tf2_listener.py
 ```
-Now copy the content from [broadcaster.txt](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/listener.txt) and paste in turtle_tf2_listener.py file.
+Now copy the content from [listener.txt](https://github.com/IntellisenseLab/CS4352-Practicals-ROS2/blob/main/Lab%2001/listener.txt) and paste in turtle_tf2_listener.py file.
 
 Open src/broadcaster_listener folder and open setup.py file. In the file, add the following line between the ```'console_scripts': ``` brackets:
 
