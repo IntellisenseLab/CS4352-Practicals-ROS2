@@ -8,4 +8,4 @@ Submit a complete lab report consisting the following details.
     ( To include you should convert the 'pgm' file into an image format, you can use a browswer-based tool like [PGM File Viewer](https://smallpond.ca/jim/photomicrography/pgmViewer/index.html)
  5. Small conclusion on what you have learned through the lab.
 
-Please be prepared for a viva on Lab 04 which may be on the next practical day.
+Please be prepared for a viva on Lab 04 which will be probably on the next practical day.
