@@ -45,7 +45,7 @@ Now follow the instructions [on this page](https://moveit.picknik.ai/humble/doc/
 ## Activity
 
 1. After completing the Step 3, you should record a video of the screen that shows what happens when you use these markers to drag the arm around and change its orientation.
-2. After completing [this](https://moveit.picknik.ai/humble/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html#moving-joints-or-in-null-space) in Step 3 ypu should record a video of the screen that shows what happens when you move the “null space exploration” slider.
+2. After completing [this](https://moveit.picknik.ai/humble/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html#moving-joints-or-in-null-space) in Step 3 you should record a video of the screen that shows what happens when you move the “null space exploration” slider.
 3. After completing Step 4, you should be able to see a visualization of the arm moving and a trail, record the movement.
 
    You should submit 3 screen recordings and a Lab report consists of the task description, RViz screenshots and your understandings from the lab.
