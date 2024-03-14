@@ -1,0 +1,60 @@
+ROS Bag
+
+ROS Bag function is used for recording and playing back data published on a certain topic.
+Creating a turtle bot and recording its movements.
+
+
+ROS 2 Bag package has been installed during the ROS Installation, since you can play with it directly. Hence not,
+
+sudo apt-get install ros-foxy-ros2bag \
+                     ros-foxy-rosbag2-converter-default-plugins \
+                     Ros-foxy-rosbag2-storage-default-plugins
+
+For the demonstration we’ll be using the turtle bot simulation,
+Open up a new terminal and run turtlebot simulation using,
+
+ros2 run turtlesim turtlesim_node
+
+The turtle bot will be controlled using the telop keyboard commands so in another terminal window, run; 
+
+ros2 run turtlesim turtle_teleop_key
+
+Also for saving the data create a folder and locate to that using;
+
+mkdir bag_files
+cd bag_files
+
+Since now th turtle bot simulation is running you can fin  dout which topics are published in the noe using the simple command; 
+
+ros2 topic list
+
+You will find a list of topics. During the previous lab session you learned that /turtle_teleop node publishes commands on the /turtle1/cmd_vel topic to make the turtle move in turtlesim. So let's dig into that using the command, 
+
+ros2 topic echo /turtle1/cmd_vel
+
+Now you will be able to see the data published on the node and lets capture these using, 
+(ros2 bag record <topic>) 
+
+ros2 bag record /turtle1/cmd_vel
+
+Here this captures the data published on the topic cmd_vel. 
+
+In the following command we will be capturing multiple topics. We also can provide a name for the bag file using -o <name>, and multiple topics need to captured and be listed with a space in between; 
+
+ros2 bag record -o subset /turtle1/cmd_vel /turtle1/pose
+
+Once recorded the bag file info can be obtained using “ ros2 bag info <name> “ and as for the example;
+
+ros2 bag info subset
+
+After retrieving the data it could be displayed using the command “ros2 bag play <name>” ;
+
+ros2 bag play subset
+
+
+Exercise :
+
+Run the turtlebot with user input commands and record the data using the ros2 bag function.
+Replay the movement of the turtlebot using the captured data.
+Compare the visual appearance of the paths of the user input one and the replay of captured data. 
+
