@@ -95,7 +95,7 @@ from webots_ros2_driver.webots_controller import WebotsController
 
 
 def generate_launch_description():
-    package_dir = get_package_share_directory('my_package')
+    package_dir = get_package_share_directory('sim_robot')
     robot_description_path = os.path.join(package_dir, 'resource', 'my_robot.urdf')
 
     webots = WebotsLauncher(
@@ -128,7 +128,7 @@ Now you have to modify the setup.py file to include the extra files you added. O
 ```python
 from setuptools import setup
 
-package_name = 'my_package'
+package_name = 'sim_robot'
 data_files = []
 data_files.append(('share/ament_index/resource_index/packages', ['resource/' + package_name]))
 data_files.append(('share/' + package_name + '/launch', ['launch/robot_launch.py']))
@@ -150,7 +150,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_robot_driver = my_package.my_robot_driver:main',
+            'my_robot_driver = sim_robot.my_robot_driver:main',
         ],
     },
 )
@@ -164,7 +164,7 @@ From a terminal in your ROS 2 workspace run:
 ```Linux
 colcon build
 source install/local_setup.bash
-ros2 launch my_package robot_launch.py
+ros2 launch sim_robot robot_launch.py
 ```
 
 Then, open a second terminal and send a command with:
